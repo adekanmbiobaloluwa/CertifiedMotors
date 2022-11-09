@@ -465,6 +465,9 @@ marquee > img{
             font-size: 16px;
             margin-top: 150px;
     }    
+    header{
+        width:100%;
+    }
     .msg-btn{
         display: none;
     }
