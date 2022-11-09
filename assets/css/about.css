@@ -558,7 +558,7 @@ p{
 }
 
 .abt-word{
-    background-image: url("/assets/image/bg/abt-img2.jpg");
+    background-image: url("assets/image/bg/abt-img2.jpg");
     color: white;
     border: 1px solid #e3a72f;
     border-radius: 10px;
