@@ -706,9 +706,24 @@ marquee > img{
 }
 
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     .nav-btn{
         display: none;
+        color: white;
+        background-color: white;
+    }
+
+    .slide p{
+        padding: 0 20px;
+    }
+    
+}
+@media (max-width:768px) {
+    .swiper-button-next,
+    .swiper-button-prev{
+        display: none;
+        color: white;
+        background-color: white;
     }
 
     .slide p{

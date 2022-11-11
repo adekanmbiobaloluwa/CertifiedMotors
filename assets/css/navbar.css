@@ -15,6 +15,7 @@ header {
     margin: 0;
     z-index: 100;
     background-color: #262626;
+    position: relative;
 }
 
 .container{
@@ -114,3 +115,13 @@ a{
 }
 }
 
+@media (max-width:768px) {
+    .nav-btn{
+        display: none;
+    }
+
+    .slide p{
+        padding: 0 20px;
+    }
+    
+}

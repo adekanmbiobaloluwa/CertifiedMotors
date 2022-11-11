@@ -19,7 +19,7 @@ header {
     padding: 0;
     margin: 0;
     z-index: 100;
-    background-image: url(/assets/image/bg/bg.jpg);
+    background-image: url(../image/bg/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -87,7 +87,7 @@ button #header-btn:hover{
     text-align: center;
     font-size: 70px;
     line-height: 50px;
-    margin: 30px;
+    margin-top: 30px;
     letter-spacing: 2px;
 }
 .welcome-text p{
@@ -372,15 +372,17 @@ marquee > img{
 @media screen and (max-width:800px) {
         .welcome-text > p{
                 font-size: 25px;
-                margin-top: 150px;
+                margin-top: 200px;
         }    
         .msg-btn{
             display: none;
         }
         .welcome-text > h1{
             font-size: 50px;
-            margin-top: 100px;
+            padding-top: 0px;
             text-align: center;
+            padding-right: 20px;
+            z-index: -100;
             margin-right: 100px;
         }
         header{
@@ -522,9 +524,9 @@ marquee > img{
 }
 
 .abt-word{
-    background-image: url("/assets/image/bg/abt-img2.jpg");
-    color: white;
-    border: 1px solid #e3a72f;
+    /* background-image: url("/assets/image/bg/abt-img2.jpg"); */
+    color: black;
+    /* border: 1px solid #e3a72f; */
     border-radius: 10px;
     padding: 50px;
     margin: 0 auto;
@@ -612,4 +614,13 @@ marquee > img{
     width: 50px;
     width: 50px;
     z-index: 99;
+}
+
+@media screen and (max-width:450px) {
+    header{
+        width: 100%!important;
+    }
+
+header {}
+    
 }
