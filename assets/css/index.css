@@ -89,6 +89,7 @@ button #header-btn:hover{
     line-height: 50px;
     margin: 30px;
     letter-spacing: 2px;
+    z-index:-2;
 }
 .welcome-text p{
     color: #d2d3d5;
